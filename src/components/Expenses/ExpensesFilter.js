@@ -6,13 +6,15 @@ const ExpensesFilter = (props) => {
 //   const [enteredYear, setEnteredYear] = useState("");
 
 const dropDownChangeHandler = event =>{
-  props.onChangeFilter(event.target.value);
+  debugger
+  props.onSetFilter(event.target.value);
 }
 
-  const filterChangeHandler = (event) => {
-    // setEnteredYear(event.target.value);
-    props.onSetFilter(event.target.value);
-  };
+  // const filterChangeHandler = (event) => {
+  //   // setEnteredYear(event.target.value);
+  //   debugger
+  //   props.onSetFilter(event.target.value);
+  // };
 
   return (
     <div className="expenses-filter">
