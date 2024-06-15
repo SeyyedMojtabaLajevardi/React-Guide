@@ -4,7 +4,7 @@ import ExpensesList from "./ExpensesList"
 import './Expenses.css'
 import Card from "../UI/Card"
 import React, { useState } from "react"
-import ExpensesChart from './ExpensesChart.'
+import ExpensesChart from './ExpensesChart'
 
 
 
